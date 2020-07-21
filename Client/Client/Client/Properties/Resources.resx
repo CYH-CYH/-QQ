@@ -1,0 +1,796 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="2020060500000052" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000052.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main--1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main--1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-46" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-46.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000084" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000084.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-+-12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-+-12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000019" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000019.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-34" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-34.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020061400000022" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020061400000022.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-66" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-66.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000025" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000025.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020061400000006" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020061400000006.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-57" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-57.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000054" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000054.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-pifu_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-pifu_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000032" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000032.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020061400000020" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020061400000020.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000001" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000001.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000015" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000015.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000079" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000079.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020061400000016" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020061400000016.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000021" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000021.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000067" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000067.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000047" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000047.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000073" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000073.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-491" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-491.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-10-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-10-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LoginBut1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LoginBut1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000003" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000003.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-29.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000085" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000085.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020061400000010" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020061400000010.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-youxiang" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-youxiang.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000086" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000086.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020061400000018" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020061400000018.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000090" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000090.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000062" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000062.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000049" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000049.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-54" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-54.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000087" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000087.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-49" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-49.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-63" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-63.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-55" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-55.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020061400000026" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020061400000026.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000005" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000005.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-69" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-69.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000063" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000063.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000029" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000029.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000020" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000020.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-51" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-51.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000076" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000076.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000018" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000018.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000066" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000066.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020061400000023" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020061400000023.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-581" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-581.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000072" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000072.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-56" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-56.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000039" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000039.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000050" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000050.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-61" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-61.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-kongjian1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-kongjian1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="close1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\close1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-39" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-39.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000014" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000014.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020061400000021" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020061400000021.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000064" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000064.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-52" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-52.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000057" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000057.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Login-210" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Login-210.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000031" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000031.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020061400000009" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020061400000009.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mian--1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mian--1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="close0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\close0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000016" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000016.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-kongjian" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-kongjian.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000048" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000048.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000010" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000010.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020061400000011" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020061400000011.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000055" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000055.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-35.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000081" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000081.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000006" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000006.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-40" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-40.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-38" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-38.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main53" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main53.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-60" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-60.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000065" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000065.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020061400000013" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020061400000013.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-17.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="叉叉" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\叉叉.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000060" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000060.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Login_120" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Login_120.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000008" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000008.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000056" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000056.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-47" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-47.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000026" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000026.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000038" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000038.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-37" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-37.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-28.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="erweima1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\erweima1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-shangcheng" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-shangcheng.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-67" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-67.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000058" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000058.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Login-221" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Login-221.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="erweima0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\erweima0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020061400000008" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020061400000008.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000024" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000024.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000017" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000017.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000083" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000083.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000030" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000030.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-68" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-68.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Login_121" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Login_121.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-45" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-45.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-pifu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-pifu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000077" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000077.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000071" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000071.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-41.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-65" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-65.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000007" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000007.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Login-223" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Login-223.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000011" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000011.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000036" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000036.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-71" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-71.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000075" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000075.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-321.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020061400000014" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020061400000014.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000043" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000043.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020061400000004" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020061400000004.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000070" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000070.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="addition" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\addition.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000013" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000013.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-26.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000022" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000022.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000059" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000059.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000004" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000004.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000089" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000089.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-shangcheng_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-shangcheng_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000045" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000045.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-+-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-+-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-261" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-261.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000023" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000023.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-+2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-+2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000040" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000040.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main--" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main--.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-19.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-guanbi-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-guanbi-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000068" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000068.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020061400000025" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020061400000025.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="erweima2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\erweima2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-191" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-191.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000002" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000002.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000074" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000074.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000069" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000069.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-62" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-62.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020061400000005" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020061400000005.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-58" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-58.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000051" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000051.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-33" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-33.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-42" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-42.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020061400000024" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020061400000024.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000037" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000037.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000046" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000046.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-+-11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-+-11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-6-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-6-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-11-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-11-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mian-27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mian-27.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Login_111" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Login_111.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000080" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000080.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-+" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-+.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000041" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000041.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-70" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-70.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000042" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000042.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020061400000007" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020061400000007.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000012" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000012.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000053" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000053.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-72" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-72.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000009" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000009.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-43" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-43.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mian-guanbi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mian-guanbi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000035" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000035.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000034" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000034.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-9-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-9-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000088" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000088.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000078" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000078.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020061400000017" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020061400000017.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000044" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000044.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-25.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-44" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-44.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000082" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000082.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Login-220" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Login-220.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000028" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000028.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000033" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000033.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mian--11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mian--11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mian-271" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mian-271.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-36" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-36.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Login-110" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Login-110.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020061400000019" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020061400000019.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000027" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000027.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2020060500000061" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2020060500000061.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-+1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-+1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-7-1png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-7-1png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="main-451" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\main-451.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
